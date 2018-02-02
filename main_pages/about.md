@@ -1,16 +1,14 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
+My name is Janet Vorobyeva, and I'm a computer science student at Stony Brook. I love to work with interesting systems and solve problems. This past summer, I worked at Grist, a startup in NYC working on making spreasheets friendlier to use.
 
-This site is a wip site for CSE300, and eventually will be my own personal website!
-
-But in the meantime, it's mostly going to be a bunch of messing around with stuff in 
-an attempt to understand how all this nonsense works.
+I also dabble in electronics. I am fascinated by early mechanical and electronic devices, 
 
 
-### Technical details
-  
-This site was built in jekyll on a modified version of the Minima theme, hosted on github pages.
+
+
+
