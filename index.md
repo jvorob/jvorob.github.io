@@ -5,6 +5,6 @@
 layout: home
 ---
 
+Hi! This is where I'll put up things I've made which might be interesting to look at, interact with, or understand.
 
-This is the main page! There's not much here right now, but you can poke around the
-rest of the site if you like.
+For now, the only cool thing to really look at is my [tron project](/projects/tron)

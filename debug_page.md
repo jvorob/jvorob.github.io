@@ -4,6 +4,7 @@ layout: default
 
 #Page for various debug activities
 
+{% comment %}
 
 Number of static-files?
 {{ site.static_files | size }} 
@@ -15,13 +16,5 @@ Number of static-files?
  {{ file.path }}   
 {% endfor %}
 
+{% endcomment %}
 
-#just succs
-
-{% assign succs = site.static_files | where_exp:"item","item.path contains 'succulents'" %}
-
-{% for file in succs %}
-  
- {{ file.path }}   
-  ![picture of a succulent]({{file.path}})
-{% endfor %}
