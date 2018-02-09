@@ -9,13 +9,29 @@ function makeBeeper() {
   
   console.log(audioCtx);
 
-  let osc = audioCtx.createOscillator()
-  osc.start()
+  let osc = audioCtx.createOscillator();
+  let gainNode = audioCtx.createGain();
 
-  let play = () => {osc.connect(audioCtx.destination);}
+  osc.connect(gainNode);
+  gainNode.connect(audioCtx.destination);
+
+  //Morse frequency is 600-1000 Hz
+  osc.frequency.setValueAtTime(800, audioCtx.currentTime)
+  osc.start()
   
-  //disconnect fails if not connected
-  let mute = () => {try { osc.disconnect(audioCtx.destination);} catch(e){}}
+  //It doesn't like 0 gain
+  gainNode.gain.setValueAtTime(0.0001, audioCtx.currentTime);
+
+
+  let setSlowly = (v) => { 
+    //Time constant of exponential decay, increase to soften beeps
+    gainNode.gain.setTargetAtTime(v, audioCtx.currentTime, 0.01);
+
+    ///////gainNode.gain.exponentialRampToValueAtTime(v, audioCtx.currentTime + 0.1);
+  }
+
+  let play = () => {setSlowly(1)}
+  let mute = () => {setSlowly(0.0001)}
 
   return {
     play: play,
