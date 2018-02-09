@@ -9,6 +9,11 @@ Here are a few of the things I've made in my spare time over the years (currentl
 
 This is a block cellular automaton which makes neat digital-looking patterns
 
+
+### [Morse Keyer](/projects/morse)
+
+This is morse code keyer. It just beeps when you press a key. (this was surprisingly difficult to find on the internet)
+
 {% comment %}
 <br><br><br>
 (alas I have not yet written up any others)
