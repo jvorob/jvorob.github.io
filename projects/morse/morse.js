@@ -106,6 +106,7 @@ function makeWidget(target) {
 
     function focusChange(isFocused, e) {
       keyer.setEnabled(isFocused);
+      if(isFocused) {audioCtx.resume(); }
       setStatus(isFocused);
     }
 
