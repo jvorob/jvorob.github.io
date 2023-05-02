@@ -1,9 +1,7 @@
 ---
-title: Projects
+title: Some Projects of Mine
 permalink: /projects
 ---
-
-Here are a few of the things I've made in my spare time over the years (currently just the one)
 
 ### [Voronoi Diagram](/projects/voronoi)
 
