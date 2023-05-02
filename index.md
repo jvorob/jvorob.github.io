@@ -5,6 +5,6 @@
 layout: home
 ---
 
-Hi! This is where I'll put up things I've made which might be interesting to look at, interact with, or understand.
+It seems every software developer has to have a homepage these days; here's mine.
 
-For now, the only cool thing to really look at is my [tron project](/projects/tron)
+There's some HTML/JS toys under the projects tab, go check them out.
