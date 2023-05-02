@@ -17,9 +17,7 @@ title:
 author: Janet Vorobyeva
 email: janet.vorobyeva@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  #This is the personal site of Janet Vorobyeva
-
-  #It's currently somewhat of a mess, as I test and come to terms with using jekyll
+  
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
