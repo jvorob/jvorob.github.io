@@ -4,9 +4,41 @@ title: About me
 permalink: /about/
 ---
 
-My name is Janet Vorobyeva. I studied computer science and mathematics at Stony Brook University, where I did my undergrad and my master's. Since then I've spent a couple of years doing research work at Sandia National Labs, where I worked on write-optimized data structures for high-throughput data indexing, and on virtual memory systems for a computer architecture simulator. As of 2022, I'm currently in NYC, teaching computer science at Stuyvesant High School.
 
-My CS experience covers a lot of disparate areas: I've done work involving high-performance data structures, scripting and automation, web development, networking, programming language implementation, computer architecture, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and historical computing technologies and programming languages.
+Janet Vorobyeva
+PhD Student, Computer Science, UC San Diego
+jvorobyeva@ucsd.edu
+
+[dblp](https://dblp.org/pid/296/1722.html)
+
+About Me
+
+I'm currently a first-year PhD student at UC San Diego, co-advised by 
+[Dean Tullsen](https://cseweb.ucsd.edu/~tullsen/) 
+and 
+[Pat Panutto](https://patpannuto.com/).
+My areas of research include microarchitectural security, embedded systems, and low-power sensors.
+
+
+Before this I've worked at [Grist](https://www.getgrist.com/), an open-source spreadsheet company.
+I spent a couple years doing research at Sandia National Labs,
+where I worked on write-optimized data structures for high-throughput data indexing as 
+well as on virutal memory systems for a cpu architecture simulator.
+I've also spent some time teaching computer science at Stuyvesant High School in NYC.
+
+
+My CS experience covers a lot of disparate areas: I've done work involving computer architecture, high-performance data structures, scripting and automation, web development, programming languages, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and retrocomputing.
+
+
+<h3> Publications </h3>
+{% assign publications = site.publications | sort: "year" | reverse  %}
+{% for pub in publications %}
+<div class="pubitem">
+  <div class = "pubtitle">{{ pub.title }}</div>
+  <div class = "pubauthors">{{ pub.authors }}</div>
+  <div class = "pubinfo">{{ pub.shortpub }}, {{ pub.year }}</div>
+</div>
+{% endfor %}
 
 <!--
 I'm currently working for the HPC department at Stony Brook, performing Linux system administration and general problem-fixing.
