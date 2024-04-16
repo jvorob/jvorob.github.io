@@ -4,14 +4,11 @@ title: About me
 permalink: /about/
 ---
 
-
-Janet Vorobyeva
+<h4>
 PhD Student, Computer Science, UC San Diego
-jvorobyeva@ucsd.edu
+</h4>
 
-[dblp](https://dblp.org/pid/296/1722.html)
-
-About Me
+jvorobyeva@ucsd.edu | [dblp](https://dblp.org/pid/296/1722.html)
 
 I'm currently a first-year PhD student at UC San Diego, co-advised by 
 [Dean Tullsen](https://cseweb.ucsd.edu/~tullsen/) 
