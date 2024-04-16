@@ -3,3 +3,27 @@
 ---
 
 @import "minima";
+
+
+/* CSS for my hacked together publications list */
+/* div.pubitem
+     div.pubtitle
+     div.pubauthors
+     div.pubinfo
+     div.publinks { a a a }
+*/
+.pubitem { margin-top: 1em; }
+
+.pubtitle {
+  font-size: 125%;
+  line-height: 2em;
+}
+
+.pubauthors,
+.pubinfo,
+.publinks {
+  font-size: 75%;
+  padding-left: 2em;
+}
+.pubinfo { font-style: italic; }
+

@@ -37,6 +37,10 @@ My CS experience covers a lot of disparate areas: I've done work involving compu
   <div class = "pubtitle">{{ pub.title }}</div>
   <div class = "pubauthors">{{ pub.authors }}</div>
   <div class = "pubinfo">{{ pub.shortpub }}, {{ pub.year }}</div>
+  <div class = "publinks">
+    <a href="/pages/{{ pub.slug }}.pdf">[pdf]</a>
+    <a href="/pages/{{ pub.doi }}.pdf">[doi]</a>
+  </div>
 </div>
 {% endfor %}
 
