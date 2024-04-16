@@ -34,12 +34,12 @@ My CS experience covers a lot of disparate areas: I've done work involving compu
 {% assign publications = site.publications | sort: "year" | reverse  %}
 {% for pub in publications %}
 <div class="pubitem">
-  <div class = "pubtitle">{{ pub.title }}</div>
+  <div class = "pubtitle"><a href="/papers/{{ pub.slug }}.pdf">{{ pub.title }}</a></div>
   <div class = "pubauthors">{{ pub.authors }}</div>
   <div class = "pubinfo">{{ pub.shortpub }}, {{ pub.year }}</div>
   <div class = "publinks">
-    <a href="/pages/{{ pub.slug }}.pdf">[pdf]</a>
-    <a href="/pages/{{ pub.doi }}.pdf">[doi]</a>
+    [<a href="/papers/{{ pub.slug }}.pdf">pdf</a>]
+    [<a href="{{ pub.doi }}">doi</a>]
   </div>
 </div>
 {% endfor %}
