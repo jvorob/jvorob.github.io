@@ -13,7 +13,7 @@ jvorobyeva@ucsd.edu \| [dblp](https://dblp.org/pid/296/1722.html)
 I'm currently a first-year PhD student at UC San Diego, co-advised by 
 [Dean Tullsen](https://cseweb.ucsd.edu/~tullsen/) 
 and 
-[Pat Panutto](https://patpannuto.com/).
+[Pat Pannuto](https://patpannuto.com/).
 My areas of research include microarchitectural security, embedded systems, and low-power sensors.
 
 
@@ -24,7 +24,7 @@ well as on virutal memory systems for a cpu architecture simulator.
 I've also spent some time teaching computer science at Stuyvesant High School in NYC.
 
 
-My CS experience covers a lot of disparate areas: I've done work involving computer architecture, high-performance data structures, scripting and automation, web development, programming languages, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and retrocomputing.
+My CS interests covers a lot of disparate areas: I've done work involving computer architecture, high-performance data structures, scripting and automation, web development, programming languages, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and retrocomputing.
 
 
 <h3> Publications </h3>

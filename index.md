@@ -5,6 +5,6 @@
 layout: home
 ---
 
-It seems every software developer has to have a homepage these days; here's mine.
+It seems everyone has to have a homepage these days; here's mine.
 
 There's some HTML/JS toys under the projects tab, go check them out.
