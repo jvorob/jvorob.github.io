@@ -35,8 +35,8 @@ My CS interests covers a lot of disparate areas: I've done work involving comput
   <div class = "pubauthors">{{ pub.authors }}</div>
   <div class = "pubinfo">{{ pub.shortpub }}, {{ pub.year }}</div>
   <div class = "publinks">
-    [<a href="/papers/{{ pub.slug }}.pdf">pdf</a>]
-    [<a href="{{ pub.doi }}">doi</a>]
+    <a href="/papers/{{ pub.slug }}.pdf">[pdf]</a>
+    <a href="{{ pub.doi }}">[doi]</a>
   </div>
 </div>
 {% endfor %}
