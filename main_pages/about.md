@@ -24,7 +24,7 @@ well as on virutal memory systems for a cpu architecture simulator.
 I've also spent some time teaching computer science at Stuyvesant High School in NYC.
 
 
-My CS interests covers a lot of disparate areas: I've done work involving computer architecture, high-performance data structures, scripting and automation, web development, programming languages, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and retrocomputing.
+My CS interests cover a lot of disparate areas: I've done work involving computer architecture, high-performance data structures, scripting and automation, web development, programming languages, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and retrocomputing.
 
 
 <h3> Publications </h3>
