@@ -20,7 +20,7 @@ My areas of research include microarchitectural security, embedded systems, and 
 Before this I've worked at [Grist](https://www.getgrist.com/), an open-source spreadsheet company.
 I spent a couple years doing research at Sandia National Labs,
 where I worked on write-optimized data structures for high-throughput data indexing as 
-well as on virutal memory systems for a cpu architecture simulator.
+well as on virtual memory systems for a cpu architecture simulator.
 I've also spent some time teaching computer science at Stuyvesant High School in NYC.
 
 
