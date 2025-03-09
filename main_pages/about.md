@@ -26,6 +26,8 @@ I've also spent some time teaching computer science at Stuyvesant High School in
 
 My CS interests cover a lot of disparate areas: I've done work involving computer architecture, high-performance data structures, scripting and automation, web development, programming languages, and graphical/geometric computation. A particular hobby of mine is tinkering with esolangs, embedded systems, and retrocomputing.
 
+For more detailed info, see my [resume](/papers/2025_resume_janet_vorobyeva_v1.pdf)
+
 
 <h3> Publications </h3>
 {% assign publications = site.publications | sort: "year" | reverse  %}
