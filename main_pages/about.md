@@ -10,7 +10,7 @@ PhD Student, Computer Science, UC San Diego
 
 jvorobyeva@ucsd.edu \| [dblp](https://dblp.org/pid/296/1722.html)
 
-I'm currently a first-year PhD student at UC San Diego, co-advised by 
+I'm currently a second-year PhD student at UC San Diego, co-advised by 
 [Dean Tullsen](https://cseweb.ucsd.edu/~tullsen/) 
 and 
 [Pat Pannuto](https://patpannuto.com/).
